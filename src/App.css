@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(7, 50px);
+  grid-template-rows: repeat(7, 50px);
+  filter: drop-shadow(20px 30px 10px grey);
+}
+
+.square {
+  background: grey;
+  filter: drop-shadow(2px 3px 4px black);
+}
+
+.type_2 {
+  background: greenyellow;
+}
+.type_3 {
+  background: tomato;
+}
+.type_4 {
+  background: orange;
+}
+.type_5 {
+  background: yellow;
+}
+
+.hitted {
+  background: rgb(49, 49, 49);
+}
+
+.hittedBoat {
+  background: rgb(255, 255, 255);
+}
+
+.void {
+  background: transparent;
+}
